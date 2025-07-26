@@ -1,17 +1,61 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AlienDispute",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_dispute",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Qingqingdodoblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qingqingdodoblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aliendispute/block/QingqingdodoblockBlock.java",
+          "src/main/resources/assets/alien_dispute/models/block/qingqingdodoblock.json",
+          "src/main/resources/assets/alien_dispute/blockstates/qingqingdodoblock.json",
+          "src/main/resources/assets/alien_dispute/models/item/qingqingdodoblock.json",
+          "src/main/resources/data/alien_dispute/loot_table/blocks/qingqingdodoblock.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Qingqingdodoblock"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Qingqingdodoblock"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.alien_dispute.alien_dispute": "Alien Dispute",
+      "block.alien_dispute.qingqingdodoblock": "Qingqingdodoblock"
+    },
+    "zh_cn": {
+      "item_group.alien_dispute.alien_dispute": "外星纷争",
+      "block.alien_dispute.qingqingdodoblock": "郬块"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/aliendispute/init/AlienDisputeModTabs.java",
       "src/main/java/net/mcreator/aliendispute/AlienDisputeMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/aliendispute/init/AlienDisputeModBlocks.java",
+      "src/main/java/net/mcreator/aliendispute/init/AlienDisputeModItems.java"
     ]
   },
   "foldersRoot": {

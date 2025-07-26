@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.aliendispute.init.AlienDisputeModTabs;
+import net.mcreator.aliendispute.init.AlienDisputeModItems;
+import net.mcreator.aliendispute.init.AlienDisputeModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +39,12 @@ public class AlienDisputeMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		AlienDisputeModBlocks.REGISTRY.register(modEventBus);
+
+		AlienDisputeModItems.REGISTRY.register(modEventBus);
+
+		AlienDisputeModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

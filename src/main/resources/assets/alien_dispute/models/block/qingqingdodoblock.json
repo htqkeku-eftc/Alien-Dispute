@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alien_dispute:block/qingqingdodo_block",
+    "up": "alien_dispute:block/qingqingdodo_block",
+    "north": "alien_dispute:block/qingqingdodo_block",
+    "east": "alien_dispute:block/qingqingdodo_block",
+    "south": "alien_dispute:block/qingqingdodo_block",
+    "west": "alien_dispute:block/qingqingdodo_block",
+    "particle": "alien_dispute:block/qingqingdodo_block"
+  },
+  "render_type": "solid"
+}

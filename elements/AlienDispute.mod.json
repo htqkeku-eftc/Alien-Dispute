@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Alien Dispute",
+    "icon": {
+      "value": "Blocks.BEACON"
+    },
+    "showSearch": true
+  }
+}
