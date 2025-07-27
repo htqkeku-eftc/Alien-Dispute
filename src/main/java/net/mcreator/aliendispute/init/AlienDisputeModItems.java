@@ -13,8 +13,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.aliendispute.item.AmberSwordItem;
+import net.mcreator.aliendispute.item.AmberShovelItem;
 import net.mcreator.aliendispute.item.AmberPickaxeItem;
 import net.mcreator.aliendispute.item.AmberItem;
+import net.mcreator.aliendispute.item.AmberHoeItem;
 import net.mcreator.aliendispute.item.AmberAxeItem;
 import net.mcreator.aliendispute.AlienDisputeMod;
 
@@ -27,6 +29,8 @@ public class AlienDisputeModItems {
 	public static final DeferredItem<Item> AMBER_PICKAXE = REGISTRY.register("amber_pickaxe", AmberPickaxeItem::new);
 	public static final DeferredItem<Item> AMBER_SWORD = REGISTRY.register("amber_sword", AmberSwordItem::new);
 	public static final DeferredItem<Item> AMBER_AXE = REGISTRY.register("amber_axe", AmberAxeItem::new);
+	public static final DeferredItem<Item> AMBER_HOE = REGISTRY.register("amber_hoe", AmberHoeItem::new);
+	public static final DeferredItem<Item> AMBER_SHOVEL = REGISTRY.register("amber_shovel", AmberShovelItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

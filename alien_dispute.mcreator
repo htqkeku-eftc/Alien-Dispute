@@ -178,6 +178,56 @@
           "src/main/resources/data/alien_dispute/recipe/amber_axe_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AmberHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alien_dispute/models/item/amber_hoe.json",
+          "src/main/java/net/mcreator/aliendispute/item/AmberHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmberHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alien_dispute/recipe/amber_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aliendispute/item/AmberShovelItem.java",
+          "src/main/resources/assets/alien_dispute/models/item/amber_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alien_dispute/recipe/amber_shovel_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -203,6 +253,12 @@
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:AmberAxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AmberHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AmberShovel"
     ]
   },
   "tab_element_order": {},
@@ -215,7 +271,9 @@
       "block.alien_dispute.amberrawore": "Amberrawore",
       "item.alien_dispute.amber_pickaxe": "Amber Pickaxe",
       "item.alien_dispute.amber_sword": "Amber Sword",
-      "item.alien_dispute.amber_axe": "Amber Axe"
+      "item.alien_dispute.amber_axe": "Amber Axe",
+      "item.alien_dispute.amber_hoe": "Amber Hoe",
+      "item.alien_dispute.amber_shovel": "Amber Shovel"
     },
     "zh_cn": {
       "item_group.alien_dispute.alien_dispute": "外星纷争",
@@ -225,7 +283,9 @@
       "block.alien_dispute.amberrawore": "琥珀原矿",
       "item.alien_dispute.amber_pickaxe": "琥珀镐",
       "item.alien_dispute.amber_sword": "琥珀剑",
-      "item.alien_dispute.amber_axe": "Amber Axe"
+      "item.alien_dispute.amber_axe": "Amber Axe",
+      "item.alien_dispute.amber_hoe": "Amber Hoe",
+      "item.alien_dispute.amber_shovel": "Amber Shovel"
     }
   },
   "metadata": {
