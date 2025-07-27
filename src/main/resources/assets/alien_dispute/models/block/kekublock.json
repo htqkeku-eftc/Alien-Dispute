@@ -1,6 +1,13 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "alien_dispute:block/kekublock"
-  }
+    "down": "alien_dispute:block/kekublock",
+    "up": "alien_dispute:block/kekublock",
+    "north": "alien_dispute:block/kekublock",
+    "east": "alien_dispute:block/kekublock",
+    "south": "alien_dispute:block/kekublock",
+    "west": "alien_dispute:block/kekublock",
+    "particle": "alien_dispute:block/kekublock"
+  },
+  "render_type": "solid"
 }

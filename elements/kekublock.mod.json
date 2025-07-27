@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
-    "particleTexture": "qingqingdodo_block",
+    "particleTexture": "kekublock",
     "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -36,7 +36,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Qingqingdodoblock",
+    "name": "keku K204 block",
     "specialInformation": {
       "fixedValue": []
     },
