@@ -153,6 +153,31 @@
           "src/main/resources/data/alien_dispute/recipe/amber_sword_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AmberAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alien_dispute/models/item/amber_axe.json",
+          "src/main/java/net/mcreator/aliendispute/item/AmberAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmberAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alien_dispute/recipe/amber_axe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -175,6 +200,9 @@
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:AmberSword"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AmberAxe"
     ]
   },
   "tab_element_order": {},
@@ -186,7 +214,8 @@
       "item.alien_dispute.amber": "Amber",
       "block.alien_dispute.amberrawore": "Amberrawore",
       "item.alien_dispute.amber_pickaxe": "Amber Pickaxe",
-      "item.alien_dispute.amber_sword": "Amber Sword"
+      "item.alien_dispute.amber_sword": "Amber Sword",
+      "item.alien_dispute.amber_axe": "Amber Axe"
     },
     "zh_cn": {
       "item_group.alien_dispute.alien_dispute": "外星纷争",
@@ -195,7 +224,8 @@
       "item.alien_dispute.amber": "琥珀石",
       "block.alien_dispute.amberrawore": "琥珀原矿",
       "item.alien_dispute.amber_pickaxe": "琥珀镐",
-      "item.alien_dispute.amber_sword": "琥珀剑"
+      "item.alien_dispute.amber_sword": "琥珀剑",
+      "item.alien_dispute.amber_axe": "Amber Axe"
     }
   },
   "metadata": {

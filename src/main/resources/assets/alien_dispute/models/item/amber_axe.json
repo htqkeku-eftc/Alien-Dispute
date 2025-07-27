@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "alien_dispute:item/amber_axe"
+  }
+}
