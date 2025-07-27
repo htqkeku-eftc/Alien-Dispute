@@ -20,5 +20,7 @@ public class AlienDisputeModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alien_dispute.alien_dispute")).icon(() -> new ItemStack(Blocks.BEACON)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlienDisputeModBlocks.QINGQINGDODOBLOCK.get().asItem());
 				tabData.accept(AlienDisputeModBlocks.KEKUBLOCK.get().asItem());
+				tabData.accept(AlienDisputeModItems.AMBER.get());
+				tabData.accept(AlienDisputeModBlocks.AMBERRAWORE.get().asItem());
 			}).withSearchBar().build());
 }

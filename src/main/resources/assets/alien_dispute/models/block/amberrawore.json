@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alien_dispute:block/amber_raw_ore",
+    "up": "alien_dispute:block/amber_raw_ore",
+    "north": "alien_dispute:block/amber_raw_ore",
+    "east": "alien_dispute:block/amber_raw_ore",
+    "south": "alien_dispute:block/amber_raw_ore",
+    "west": "alien_dispute:block/amber_raw_ore",
+    "particle": "alien_dispute:block/amber_raw_ore"
+  },
+  "render_type": "solid"
+}

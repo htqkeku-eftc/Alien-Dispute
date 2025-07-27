@@ -41,18 +41,54 @@
           "src/main/resources/assets/alien_dispute/models/item/kekublock.json"
         ]
       }
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alien_dispute/models/item/amber.json",
+          "src/main/java/net/mcreator/aliendispute/item/AmberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Amberrawore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amberrawore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alien_dispute/models/block/amberrawore.json",
+          "src/main/resources/data/alien_dispute/worldgen/placed_feature/amberrawore.json",
+          "src/main/resources/data/alien_dispute/loot_table/blocks/amberrawore.json",
+          "src/main/resources/data/alien_dispute/worldgen/configured_feature/amberrawore.json",
+          "src/main/java/net/mcreator/aliendispute/block/AmberraworeBlock.java",
+          "src/main/resources/assets/alien_dispute/models/item/amberrawore.json",
+          "src/main/resources/data/alien_dispute/neoforge/biome_modifier/amberrawore_biome_modifier.json",
+          "src/main/resources/assets/alien_dispute/blockstates/amberrawore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Amberrawore",
       "~CUSTOM:kekublock",
       "~CUSTOM:Qingqingdodoblock"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:kekublock",
       "~CUSTOM:Qingqingdodoblock"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Amberrawore"
     ]
   },
   "tab_element_order": {},
@@ -60,12 +96,16 @@
     "en_us": {
       "item_group.alien_dispute.alien_dispute": "Alien Dispute",
       "block.alien_dispute.qingqingdodoblock": "Qingqingdodoblock",
-      "block.alien_dispute.kekublock": "keku K204 block"
+      "block.alien_dispute.kekublock": "keku K204 block",
+      "item.alien_dispute.amber": "Amber",
+      "block.alien_dispute.amberrawore": "Amberrawore"
     },
     "zh_cn": {
       "item_group.alien_dispute.alien_dispute": "外星纷争",
       "block.alien_dispute.qingqingdodoblock": "郬块",
-      "block.alien_dispute.kekublock": "keku K204 块"
+      "block.alien_dispute.kekublock": "keku K204 块",
+      "item.alien_dispute.amber": "Amber",
+      "block.alien_dispute.amberrawore": "Amberrawore"
     }
   },
   "metadata": {

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "alien_dispute:amberrawore",
+  "step": "underground_ores"
+}
