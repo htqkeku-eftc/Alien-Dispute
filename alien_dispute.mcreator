@@ -25,6 +25,22 @@
           "src/main/resources/data/alien_dispute/loot_table/blocks/qingqingdodoblock.json"
         ]
       }
+    },
+ {
+      "name": "kekublock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kekublock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aliendispute/block/kekublock.java",
+          "src/main/resources/assets/alien_dispute/models/block/kekublock.json",
+          "src/main/resources/assets/alien_dispute/blockstates/kekublock.json",
+          "src/main/resources/assets/alien_dispute/models/item/kekublock.json",
+          "src/main/resources/data/alien_dispute/loot_table/blocks/kekublock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
