@@ -283,9 +283,9 @@
       "block.alien_dispute.amberrawore": "琥珀原矿",
       "item.alien_dispute.amber_pickaxe": "琥珀镐",
       "item.alien_dispute.amber_sword": "琥珀剑",
-      "item.alien_dispute.amber_axe": "Amber Axe",
-      "item.alien_dispute.amber_hoe": "Amber Hoe",
-      "item.alien_dispute.amber_shovel": "Amber Shovel"
+      "item.alien_dispute.amber_axe": "琥珀斧",
+      "item.alien_dispute.amber_hoe": "琥珀锄",
+      "item.alien_dispute.amber_shovel": "琥珀铲"
     }
   },
   "metadata": {
