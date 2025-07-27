@@ -131,6 +131,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "Diggingamberoregivesplayersexperience"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

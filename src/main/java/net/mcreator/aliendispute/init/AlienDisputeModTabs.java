@@ -23,5 +23,6 @@ public class AlienDisputeModTabs {
 				tabData.accept(AlienDisputeModItems.AMBER.get());
 				tabData.accept(AlienDisputeModBlocks.AMBERRAWORE.get().asItem());
 				tabData.accept(AlienDisputeModItems.AMBER_PICKAXE.get());
+				tabData.accept(AlienDisputeModItems.AMBER_SWORD.get());
 			}).withSearchBar().build());
 }

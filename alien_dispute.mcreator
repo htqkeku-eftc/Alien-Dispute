@@ -86,6 +86,49 @@
           "src/main/resources/assets/alien_dispute/models/item/amber_pickaxe.json"
         ]
       }
+    },
+    {
+      "name": "AmberSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aliendispute/item/AmberSwordItem.java",
+          "src/main/resources/assets/alien_dispute/models/item/amber_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Diggingamberoregivesplayersexperience",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diggingamberoregivesplayersexperience",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/aliendispute/procedures/DiggingamberoregivesplayersexperienceProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -105,6 +148,9 @@
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:AmberPickaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AmberSword"
     ]
   },
   "tab_element_order": {},
@@ -115,7 +161,8 @@
       "block.alien_dispute.kekublock": "keku K204 block",
       "item.alien_dispute.amber": "Amber",
       "block.alien_dispute.amberrawore": "Amberrawore",
-      "item.alien_dispute.amber_pickaxe": "Amber Pickaxe"
+      "item.alien_dispute.amber_pickaxe": "Amber Pickaxe",
+      "item.alien_dispute.amber_sword": "Amber Sword"
     },
     "zh_cn": {
       "item_group.alien_dispute.alien_dispute": "外星纷争",
@@ -123,7 +170,8 @@
       "block.alien_dispute.kekublock": "keku K204 块",
       "item.alien_dispute.amber": "琥珀石",
       "block.alien_dispute.amberrawore": "琥珀原矿",
-      "item.alien_dispute.amber_pickaxe": "琥珀镐"
+      "item.alien_dispute.amber_pickaxe": "琥珀镐",
+      "item.alien_dispute.amber_sword": "Amber Sword"
     }
   },
   "metadata": {

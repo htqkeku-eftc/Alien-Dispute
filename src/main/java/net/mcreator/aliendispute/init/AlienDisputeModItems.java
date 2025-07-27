@@ -12,6 +12,7 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.aliendispute.item.AmberSwordItem;
 import net.mcreator.aliendispute.item.AmberPickaxeItem;
 import net.mcreator.aliendispute.item.AmberItem;
 import net.mcreator.aliendispute.AlienDisputeMod;
@@ -23,6 +24,7 @@ public class AlienDisputeModItems {
 	public static final DeferredItem<Item> AMBER = REGISTRY.register("amber", AmberItem::new);
 	public static final DeferredItem<Item> AMBERRAWORE = block(AlienDisputeModBlocks.AMBERRAWORE, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 	public static final DeferredItem<Item> AMBER_PICKAXE = REGISTRY.register("amber_pickaxe", AmberPickaxeItem::new);
+	public static final DeferredItem<Item> AMBER_SWORD = REGISTRY.register("amber_sword", AmberSwordItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
