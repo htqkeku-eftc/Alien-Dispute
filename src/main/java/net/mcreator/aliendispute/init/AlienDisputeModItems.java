@@ -17,7 +17,6 @@ import net.mcreator.aliendispute.AlienDisputeMod;
 public class AlienDisputeModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(AlienDisputeMod.MODID);
 	public static final DeferredItem<Item> QINGQINGDODOBLOCK = block(AlienDisputeModBlocks.QINGQINGDODOBLOCK, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
-	public static final DeferredItem<Item> kekublock = block(AlienDisputeModBlocks.kekublock, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
 
 	// Start of user code block custom items
 	// End of user code block custom items

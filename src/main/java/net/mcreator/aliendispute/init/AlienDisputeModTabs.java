@@ -19,6 +19,5 @@ public class AlienDisputeModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ALIEN_DISPUTE = REGISTRY.register("alien_dispute",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alien_dispute.alien_dispute")).icon(() -> new ItemStack(Blocks.BEACON)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlienDisputeModBlocks.QINGQINGDODOBLOCK.get().asItem());
-				tabData.accept(AlienDisputeModBlocks.kekublock.get().asItem());
 			}).withSearchBar().build());
 }
