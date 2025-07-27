@@ -1,13 +1,3 @@
-tasks.register('mcreatorLink') {
-  ant.mkdir(dir: 'lib/');
-  ant.get(src: 'https://mcreator.net/link/download/1.21.1', dest: 'lib/mcreator_link.jar', skipexisting: 'true');
-}
-
-compileJava.dependsOn mcreatorLink
-
-dependencies { implementation files("lib/mcreator_link.jar") }
-
-
 repositories {
  maven {
      url = 'https://maven.kosmx.dev/'

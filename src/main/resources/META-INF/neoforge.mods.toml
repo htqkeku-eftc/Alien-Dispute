@@ -27,12 +27,6 @@ authors="MCreator"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.alien_dispute]]
-    modId="mcreator_link"
-    type="required"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.alien_dispute]]
     modId="playeranimator"
