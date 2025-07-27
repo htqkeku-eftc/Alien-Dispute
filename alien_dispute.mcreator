@@ -129,6 +129,30 @@
           "src/main/java/net/mcreator/aliendispute/procedures/DiggingamberoregivesplayersexperienceProcedure.java"
         ]
       }
+    },
+    {
+      "name": "AmberPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alien_dispute/recipe/amber_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmberSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alien_dispute/recipe/amber_sword_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -171,7 +195,7 @@
       "item.alien_dispute.amber": "琥珀石",
       "block.alien_dispute.amberrawore": "琥珀原矿",
       "item.alien_dispute.amber_pickaxe": "琥珀镐",
-      "item.alien_dispute.amber_sword": "Amber Sword"
+      "item.alien_dispute.amber_sword": "琥珀剑"
     }
   },
   "metadata": {
