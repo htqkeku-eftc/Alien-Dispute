@@ -49,7 +49,7 @@ public class AmberPickaxeItem extends PickaxeItem {
 	};
 
 	public AmberPickaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -1f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -2.8f)));
 	}
 
 	@Override
