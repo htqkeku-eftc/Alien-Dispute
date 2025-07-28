@@ -240,6 +240,57 @@
           "src/main/resources/data/alien_dispute/painting_variant/server_1a_1sicon.json"
         ]
       }
+    },
+    {
+      "name": "Grindingambergivestheplayeranambergem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grindingambergivestheplayeranambergem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/aliendispute/procedures/GrindingambergivestheplayeranambergemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ambergemstones",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambergemstones",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alien_dispute/models/item/ambergemstones.json",
+          "src/main/java/net/mcreator/aliendispute/item/AmbergemstonesItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -287,7 +338,8 @@
       "item.alien_dispute.amber_hoe": "Amber Hoe",
       "item.alien_dispute.amber_shovel": "Amber Shovel",
       "painting.alien_dispute.server_1a_1sicon.author": "lightseeking_studio",
-      "painting.alien_dispute.server_1a_1sicon.title": "Server 1a 1sicon"
+      "painting.alien_dispute.server_1a_1sicon.title": "Server 1a 1sicon",
+      "item.alien_dispute.ambergemstones": "Ambergemstones"
     },
     "zh_cn": {
       "item_group.alien_dispute.alien_dispute": "外星纷争",
@@ -301,7 +353,8 @@
       "item.alien_dispute.amber_hoe": "琥珀锄",
       "item.alien_dispute.amber_shovel": "琥珀铲",
       "painting.alien_dispute.server_1a_1sicon.author": "寻光开发组",
-      "painting.alien_dispute.server_1a_1sicon.title": "1a1s服务器图标"
+      "painting.alien_dispute.server_1a_1sicon.title": "1a1s服务器图标",
+      "item.alien_dispute.ambergemstones": "琥珀宝石"
     }
   },
   "metadata": {

@@ -27,5 +27,6 @@ public class AlienDisputeModTabs {
 				tabData.accept(AlienDisputeModItems.AMBER_AXE.get());
 				tabData.accept(AlienDisputeModItems.AMBER_HOE.get());
 				tabData.accept(AlienDisputeModItems.AMBER_SHOVEL.get());
+				tabData.accept(AlienDisputeModItems.AMBERGEMSTONES.get());
 			}).withSearchBar().build());
 }
