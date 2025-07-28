@@ -28,12 +28,6 @@ authors="MCreator"
     side="BOTH"
 
 
-[[dependencies.alien_dispute]]
-    modId="playeranimator"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
 
